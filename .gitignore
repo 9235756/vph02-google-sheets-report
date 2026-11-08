@@ -1,0 +1,20 @@
+# Секреты
+.env.local
+.env
+
+# JSON-ключи сервисного аккаунта: любой *.json, кроме примеров
+*.json
+service_account*.json
+!*.example.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Логи
+*.log
+
+.DS_Store
